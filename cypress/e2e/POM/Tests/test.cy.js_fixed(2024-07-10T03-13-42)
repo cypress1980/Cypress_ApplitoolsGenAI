@@ -1,0 +1,14 @@
+describe('test',  () => {
+    it('Swag Labs', () => {
+      cy.viewport(1440, 900);
+      cy.initializeAutoheal('0c563b28d21b');
+      cy.visit('https://www.saucedemo.com/');
+      cy.getAI('#user-name').type('standard_user');
+      cy.getAI('#password').type('secret_sauce');
+      cy.getAI('.btn_action').click();
+      //cy.getAI('.title').click();
+      cy.getAI('#react-burger-menu-btn').click();
+      cy.getAI('#logout_sidebar_link').click();
+      cy.autoheal();
+    })
+  });

@@ -1,0 +1,17 @@
+{
+  "name": "applitools_testgenai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kailash",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "@applitools/testgenai-cypress": "^0.7.5"
+  }
+}
